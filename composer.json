@@ -11,10 +11,11 @@
     ],
     "type": "project",
     "require": {
-		"php": ">=7.1",
+        "php": ">=7.0",
         "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
+        "php": ">=7.2",
 		"phpunit/phpunit": "8.*"
     },
     "autoload": {
