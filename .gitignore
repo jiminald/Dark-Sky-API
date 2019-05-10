@@ -1,0 +1,9 @@
+# Files
+.DS_Store
+.phpunit.result.cache
+composer.phar
+composer.lock
+
+# Folders
+tests/_logs
+vendor/

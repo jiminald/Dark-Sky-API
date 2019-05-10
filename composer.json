@@ -1,0 +1,25 @@
+{
+    "name": "jiminald/dark-sky-api",
+    "description": "Fetch Dark Sky weather data via their API",
+    "keywords": ["Dark Sky", "Weather", "Forecast"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jiminald",
+            "email": "code@jiminald.co.uk"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DarkSkyApi\\": "src/"
+        }
+    }
+}
