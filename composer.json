@@ -9,7 +9,6 @@
             "email": "code@jiminald.co.uk"
         }
     ],
-    "type": "project",
     "require": {
         "php": ">=7.0",
         "guzzlehttp/guzzle": "~6.0"
